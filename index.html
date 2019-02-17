@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Generative Music</title>
+    <link rel="stylesheet" href="/style.css" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pizzicato/0.6.3/Pizzicato.min.js"></script>
+    <script src="/tsw.min.js"></script>    
+    
+</head>
+
+
+<body style="width: 100%; height: 100%; margin: 0; padding: 0" onresize="windowResize();">
+
+    <div id="starsContainer">
+        <div id="stars">
+        </div>
+    </div>
+
+    <div id="sun">
+
+    </div>
+
+    <div id="sunDay">
+
+    </div>
+
+    <div id="sunSet">
+
+    </div>
+
+    <div id="sky">
+
+    </div>
+
+    <div class="star" style="left: 250px; top: 30px;"></div>
+    <div class="star" style="left: 300px; top: 25px;"></div>
+    <div class="star" style="right: 40px; top: 40px;"></div>
+    <div class="star" style="right: 80px; top: 45px;"></div>
+    <div class="star" style="right: 120px; top: 20px;"></div>
+
+    <div id="horizon"></div>
+
+    <div id="horizonNight"></div>
+
+    <div id="moon"></div>
+
+    <div id="mountainRange">
+        <div id="mountain">
+        </div>
+
+    </div>
+
+    <div id="division">
+
+    </div>
+
+    <div id="water"></div>
+
+    <div id="waterReflectionContainer">
+        <div id="waterReflectionMiddle">
+
+        </div>
+    </div>
+    <div id="waterDistance"></div>
+    <div id="darknessOverlaySky"></div>
+    <div id="darknessOverlay"></div>
+    <div id="oceanRippleContainer">
+    </div>
+    <div id="oceanRipple"></div>
+    
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/index.js"></script>
+
+
+</body>
+
+
+</html>
